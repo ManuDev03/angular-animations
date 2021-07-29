@@ -13,7 +13,7 @@ import {trigger,state,style,animate,transition} from '@angular/animations'
   state("closed",style({
     height:'500px',
     opacity:0.5,
-    backgroundColor:'orange'
+    backgroundColor:'green'
   })),transition("open=>closed",[animate('1s')]),
   transition("closed=>open",[animate('.5s')])
   
