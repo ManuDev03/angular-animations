@@ -1,5 +1,7 @@
 <p>imageanimations works!</p>
-<img src="../../assets/flower.jpg" width="200px" height="200px">
-<button>rotate</button>
+<img [@imageTransitions]="state?'idle':'rotated'" style="position:relative;left:30%;right:30%" src="../../assets/flower.jpg" width="200px" height="200px">
+<br><br><br><br>
+{{state}}
+<button (click)="toggle()">rotate</button>
 <button>translate</button>
 <button>scale</button>
