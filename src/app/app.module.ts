@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MyanimationsComponent } from './myanimations/myanimations.component';
 import { ImageanimationsComponent } from './imageanimations/imageanimations.component';
+import { AboutComponent } from './about/about.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyanimationsComponent,
-    ImageanimationsComponent
+    ImageanimationsComponent,
+    AboutComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
